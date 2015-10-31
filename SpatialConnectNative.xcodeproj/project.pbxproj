@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564B19B41BE3BE74000C7BAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B19B31BE3BE74000C7BAE /* main.m */; };
+		564B19B71BE3BE74000C7BAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B19B61BE3BE74000C7BAE /* AppDelegate.m */; };
+		564B19BA1BE3BE74000C7BAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B19B91BE3BE74000C7BAE /* ViewController.m */; };
+		564B19BD1BE3BE74000C7BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B19BB1BE3BE74000C7BAE /* Main.storyboard */; };
+		564B19BF1BE3BE74000C7BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564B19BE1BE3BE74000C7BAE /* Assets.xcassets */; };
+		564B19C21BE3BE74000C7BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B19C01BE3BE74000C7BAE /* LaunchScreen.storyboard */; };
+		564B19CD1BE3BE74000C7BAE /* SpatialConnectNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B19CC1BE3BE74000C7BAE /* SpatialConnectNativeTests.m */; };
+		564B19D81BE3BE74000C7BAE /* SpatialConnectNativeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B19D71BE3BE74000C7BAE /* SpatialConnectNativeUITests.m */; };
+		971C583BA3614D9EAA0648B6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B49DA9EEB7AA4984B8BA522E /* libPods.a */; };
+		A1E1E1562A6822886A2D78B6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B49DA9EEB7AA4984B8BA522E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564B19C91BE3BE74000C7BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564B19A71BE3BE74000C7BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564B19AE1BE3BE74000C7BAE;
+			remoteInfo = SpatialConnectNative;
+		};
+		564B19D41BE3BE74000C7BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564B19A71BE3BE74000C7BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564B19AE1BE3BE74000C7BAE;
+			remoteInfo = SpatialConnectNative;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		287D437DF02FC442C6D695C3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2C0ED9993C19EBB923E6C3CD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		564B19AF1BE3BE74000C7BAE /* SpatialConnectNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialConnectNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B19B31BE3BE74000C7BAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		564B19B51BE3BE74000C7BAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		564B19B61BE3BE74000C7BAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		564B19B81BE3BE74000C7BAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		564B19B91BE3BE74000C7BAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		564B19BC1BE3BE74000C7BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564B19BE1BE3BE74000C7BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564B19C11BE3BE74000C7BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		564B19C31BE3BE74000C7BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564B19C81BE3BE74000C7BAE /* SpatialConnectNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialConnectNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B19CC1BE3BE74000C7BAE /* SpatialConnectNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpatialConnectNativeTests.m; sourceTree = "<group>"; };
+		564B19CE1BE3BE74000C7BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564B19D31BE3BE74000C7BAE /* SpatialConnectNativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialConnectNativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B19D71BE3BE74000C7BAE /* SpatialConnectNativeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpatialConnectNativeUITests.m; sourceTree = "<group>"; };
+		564B19D91BE3BE74000C7BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49DA9EEB7AA4984B8BA522E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564B19AC1BE3BE74000C7BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E1E1562A6822886A2D78B6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19C51BE3BE74000C7BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971C583BA3614D9EAA0648B6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19D01BE3BE74000C7BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48EC8B354234AC16F0E98031 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C0ED9993C19EBB923E6C3CD /* Pods.debug.xcconfig */,
+				287D437DF02FC442C6D695C3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		564B19A61BE3BE74000C7BAE = {
+			isa = PBXGroup;
+			children = (
+				564B19B11BE3BE74000C7BAE /* SpatialConnectNative */,
+				564B19CB1BE3BE74000C7BAE /* SpatialConnectNativeTests */,
+				564B19D61BE3BE74000C7BAE /* SpatialConnectNativeUITests */,
+				564B19B01BE3BE74000C7BAE /* Products */,
+				48EC8B354234AC16F0E98031 /* Pods */,
+				ECF90D6AED12F1787B6D459D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		564B19B01BE3BE74000C7BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564B19AF1BE3BE74000C7BAE /* SpatialConnectNative.app */,
+				564B19C81BE3BE74000C7BAE /* SpatialConnectNativeTests.xctest */,
+				564B19D31BE3BE74000C7BAE /* SpatialConnectNativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564B19B11BE3BE74000C7BAE /* SpatialConnectNative */ = {
+			isa = PBXGroup;
+			children = (
+				564B19B51BE3BE74000C7BAE /* AppDelegate.h */,
+				564B19B61BE3BE74000C7BAE /* AppDelegate.m */,
+				564B19B81BE3BE74000C7BAE /* ViewController.h */,
+				564B19B91BE3BE74000C7BAE /* ViewController.m */,
+				564B19BB1BE3BE74000C7BAE /* Main.storyboard */,
+				564B19BE1BE3BE74000C7BAE /* Assets.xcassets */,
+				564B19C01BE3BE74000C7BAE /* LaunchScreen.storyboard */,
+				564B19C31BE3BE74000C7BAE /* Info.plist */,
+				564B19B21BE3BE74000C7BAE /* Supporting Files */,
+			);
+			path = SpatialConnectNative;
+			sourceTree = "<group>";
+		};
+		564B19B21BE3BE74000C7BAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564B19B31BE3BE74000C7BAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		564B19CB1BE3BE74000C7BAE /* SpatialConnectNativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				564B19CC1BE3BE74000C7BAE /* SpatialConnectNativeTests.m */,
+				564B19CE1BE3BE74000C7BAE /* Info.plist */,
+			);
+			path = SpatialConnectNativeTests;
+			sourceTree = "<group>";
+		};
+		564B19D61BE3BE74000C7BAE /* SpatialConnectNativeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				564B19D71BE3BE74000C7BAE /* SpatialConnectNativeUITests.m */,
+				564B19D91BE3BE74000C7BAE /* Info.plist */,
+			);
+			path = SpatialConnectNativeUITests;
+			sourceTree = "<group>";
+		};
+		ECF90D6AED12F1787B6D459D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49DA9EEB7AA4984B8BA522E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564B19AE1BE3BE74000C7BAE /* SpatialConnectNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B19DC1BE3BE74000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectNative" */;
+			buildPhases = (
+				07283A794A3B7CA2FFC5F424 /* Check Pods Manifest.lock */,
+				564B19AB1BE3BE74000C7BAE /* Sources */,
+				564B19AC1BE3BE74000C7BAE /* Frameworks */,
+				564B19AD1BE3BE74000C7BAE /* Resources */,
+				70A9764C45A25A83DF326E39 /* Embed Pods Frameworks */,
+				6AD0FCB3C283D78C81893ACF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpatialConnectNative;
+			productName = SpatialConnectNative;
+			productReference = 564B19AF1BE3BE74000C7BAE /* SpatialConnectNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564B19C71BE3BE74000C7BAE /* SpatialConnectNativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B19DF1BE3BE74000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectNativeTests" */;
+			buildPhases = (
+				FBFB054B87EAC6FA784B3659 /* Check Pods Manifest.lock */,
+				564B19C41BE3BE74000C7BAE /* Sources */,
+				564B19C51BE3BE74000C7BAE /* Frameworks */,
+				564B19C61BE3BE74000C7BAE /* Resources */,
+				E74A6E0A4470DFE6724C5F88 /* Embed Pods Frameworks */,
+				14BA0F818F9F238746806727 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564B19CA1BE3BE74000C7BAE /* PBXTargetDependency */,
+			);
+			name = SpatialConnectNativeTests;
+			productName = SpatialConnectNativeTests;
+			productReference = 564B19C81BE3BE74000C7BAE /* SpatialConnectNativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		564B19D21BE3BE74000C7BAE /* SpatialConnectNativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B19E21BE3BE74000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectNativeUITests" */;
+			buildPhases = (
+				564B19CF1BE3BE74000C7BAE /* Sources */,
+				564B19D01BE3BE74000C7BAE /* Frameworks */,
+				564B19D11BE3BE74000C7BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564B19D51BE3BE74000C7BAE /* PBXTargetDependency */,
+			);
+			name = SpatialConnectNativeUITests;
+			productName = SpatialConnectNativeUITests;
+			productReference = 564B19D31BE3BE74000C7BAE /* SpatialConnectNativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564B19A71BE3BE74000C7BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Boundless Spatial";
+				TargetAttributes = {
+					564B19AE1BE3BE74000C7BAE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					564B19C71BE3BE74000C7BAE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 564B19AE1BE3BE74000C7BAE;
+					};
+					564B19D21BE3BE74000C7BAE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 564B19AE1BE3BE74000C7BAE;
+					};
+				};
+			};
+			buildConfigurationList = 564B19AA1BE3BE74000C7BAE /* Build configuration list for PBXProject "SpatialConnectNative" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564B19A61BE3BE74000C7BAE;
+			productRefGroup = 564B19B01BE3BE74000C7BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564B19AE1BE3BE74000C7BAE /* SpatialConnectNative */,
+				564B19C71BE3BE74000C7BAE /* SpatialConnectNativeTests */,
+				564B19D21BE3BE74000C7BAE /* SpatialConnectNativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564B19AD1BE3BE74000C7BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B19C21BE3BE74000C7BAE /* LaunchScreen.storyboard in Resources */,
+				564B19BF1BE3BE74000C7BAE /* Assets.xcassets in Resources */,
+				564B19BD1BE3BE74000C7BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19C61BE3BE74000C7BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19D11BE3BE74000C7BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07283A794A3B7CA2FFC5F424 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14BA0F818F9F238746806727 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AD0FCB3C283D78C81893ACF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70A9764C45A25A83DF326E39 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74A6E0A4470DFE6724C5F88 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFB054B87EAC6FA784B3659 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564B19AB1BE3BE74000C7BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B19BA1BE3BE74000C7BAE /* ViewController.m in Sources */,
+				564B19B71BE3BE74000C7BAE /* AppDelegate.m in Sources */,
+				564B19B41BE3BE74000C7BAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19C41BE3BE74000C7BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B19CD1BE3BE74000C7BAE /* SpatialConnectNativeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19CF1BE3BE74000C7BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B19D81BE3BE74000C7BAE /* SpatialConnectNativeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564B19CA1BE3BE74000C7BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564B19AE1BE3BE74000C7BAE /* SpatialConnectNative */;
+			targetProxy = 564B19C91BE3BE74000C7BAE /* PBXContainerItemProxy */;
+		};
+		564B19D51BE3BE74000C7BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564B19AE1BE3BE74000C7BAE /* SpatialConnectNative */;
+			targetProxy = 564B19D41BE3BE74000C7BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		564B19BB1BE3BE74000C7BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564B19BC1BE3BE74000C7BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		564B19C01BE3BE74000C7BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564B19C11BE3BE74000C7BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564B19DA1BE3BE74000C7BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		564B19DB1BE3BE74000C7BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564B19DD1BE3BE74000C7BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0ED9993C19EBB923E6C3CD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpatialConnectNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		564B19DE1BE3BE74000C7BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287D437DF02FC442C6D695C3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpatialConnectNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		564B19E01BE3BE74000C7BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0ED9993C19EBB923E6C3CD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpatialConnectNativeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectNativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialConnectNative.app/SpatialConnectNative";
+			};
+			name = Debug;
+		};
+		564B19E11BE3BE74000C7BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287D437DF02FC442C6D695C3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpatialConnectNativeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectNativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialConnectNative.app/SpatialConnectNative";
+			};
+			name = Release;
+		};
+		564B19E31BE3BE74000C7BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpatialConnectNativeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectNativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpatialConnectNative;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		564B19E41BE3BE74000C7BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpatialConnectNativeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectNativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpatialConnectNative;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564B19AA1BE3BE74000C7BAE /* Build configuration list for PBXProject "SpatialConnectNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B19DA1BE3BE74000C7BAE /* Debug */,
+				564B19DB1BE3BE74000C7BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B19DC1BE3BE74000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B19DD1BE3BE74000C7BAE /* Debug */,
+				564B19DE1BE3BE74000C7BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B19DF1BE3BE74000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectNativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B19E01BE3BE74000C7BAE /* Debug */,
+				564B19E11BE3BE74000C7BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B19E21BE3BE74000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectNativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B19E31BE3BE74000C7BAE /* Debug */,
+				564B19E41BE3BE74000C7BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564B19A71BE3BE74000C7BAE /* Project object */;
+}
